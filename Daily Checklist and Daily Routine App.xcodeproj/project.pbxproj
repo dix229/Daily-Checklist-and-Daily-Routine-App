@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E2420B223D828780011903B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2420B123D828780011903B /* AppDelegate.m */; };
+		0E2420B523D828780011903B /* Task.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2420B423D828780011903B /* Task.m */; };
+		0E2420B823D828780011903B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2420B623D828780011903B /* Main.storyboard */; };
+		0E2420BA23D8287D0011903B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E2420B923D8287D0011903B /* Assets.xcassets */; };
+		0E2420BD23D8287D0011903B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E2420BB23D8287D0011903B /* LaunchScreen.storyboard */; };
+		0E2420C023D8287D0011903B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2420BF23D8287D0011903B /* main.m */; };
+		0E2420CA23D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2420C923D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppTests.m */; };
+		0E2420D523D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2420D423D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppUITests.m */; };
+		0E2420E523D884320011903B /* DB.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E2420E423D884320011903B /* DB.m */; };
+		0E2420E823D884820011903B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E2420E723D884820011903B /* libsqlite3.tbd */; };
+		0E5AB63223DACBCC0043EB0B /* ListAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AB63123DACBCC0043EB0B /* ListAdapter.m */; };
+		0E5AB63523DACD5B0043EB0B /* TaskModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5AB63423DACD5B0043EB0B /* TaskModel.m */; };
+		0E5C715823DC309200115478 /* SavedData.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5C715723DC309200115478 /* SavedData.m */; };
+		0E5C715B23DC6F7B00115478 /* TaskHistory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E5C715A23DC6F7B00115478 /* TaskHistory.m */; };
+		0EE86C9123D98DA50040F6A7 /* Home.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EE86C9023D98DA50040F6A7 /* Home.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0E2420C623D8287E0011903B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E2420A523D828770011903B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2420AC23D828780011903B;
+			remoteInfo = "Daily Checklist and Daily Routine App";
+		};
+		0E2420D123D8287E0011903B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0E2420A523D828770011903B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0E2420AC23D828780011903B;
+			remoteInfo = "Daily Checklist and Daily Routine App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0E2420AD23D828780011903B /* Daily Checklist and Daily Routine App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Daily Checklist and Daily Routine App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2420B023D828780011903B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0E2420B123D828780011903B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0E2420B323D828780011903B /* Task.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Task.h; sourceTree = "<group>"; };
+		0E2420B423D828780011903B /* Task.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Task.m; sourceTree = "<group>"; };
+		0E2420B723D828780011903B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0E2420B923D8287D0011903B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0E2420BC23D8287D0011903B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0E2420BE23D8287D0011903B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2420BF23D8287D0011903B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0E2420C523D8287E0011903B /* Daily Checklist and Daily Routine AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily Checklist and Daily Routine AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2420C923D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Daily_Checklist_and_Daily_Routine_AppTests.m; sourceTree = "<group>"; };
+		0E2420CB23D8287E0011903B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2420D023D8287E0011903B /* Daily Checklist and Daily Routine AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Daily Checklist and Daily Routine AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E2420D423D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Daily_Checklist_and_Daily_Routine_AppUITests.m; sourceTree = "<group>"; };
+		0E2420D623D8287E0011903B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E2420E323D884320011903B /* DB.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DB.h; sourceTree = "<group>"; };
+		0E2420E423D884320011903B /* DB.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DB.m; sourceTree = "<group>"; };
+		0E2420E723D884820011903B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0E5AB63023DACBCC0043EB0B /* ListAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListAdapter.h; sourceTree = "<group>"; };
+		0E5AB63123DACBCC0043EB0B /* ListAdapter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListAdapter.m; sourceTree = "<group>"; };
+		0E5AB63323DACD5B0043EB0B /* TaskModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskModel.h; sourceTree = "<group>"; };
+		0E5AB63423DACD5B0043EB0B /* TaskModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskModel.m; sourceTree = "<group>"; };
+		0E5C715623DC309200115478 /* SavedData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SavedData.h; sourceTree = "<group>"; };
+		0E5C715723DC309200115478 /* SavedData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SavedData.m; sourceTree = "<group>"; };
+		0E5C715923DC6F7B00115478 /* TaskHistory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskHistory.h; sourceTree = "<group>"; };
+		0E5C715A23DC6F7B00115478 /* TaskHistory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskHistory.m; sourceTree = "<group>"; };
+		0EE86C8F23D98DA50040F6A7 /* Home.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Home.h; sourceTree = "<group>"; };
+		0EE86C9023D98DA50040F6A7 /* Home.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Home.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E2420AA23D828780011903B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2420E823D884820011903B /* libsqlite3.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2420C223D8287E0011903B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2420CD23D8287E0011903B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E2420A423D828770011903B = {
+			isa = PBXGroup;
+			children = (
+				0E2420AF23D828780011903B /* Daily Checklist and Daily Routine App */,
+				0E2420C823D8287E0011903B /* Daily Checklist and Daily Routine AppTests */,
+				0E2420D323D8287E0011903B /* Daily Checklist and Daily Routine AppUITests */,
+				0E2420AE23D828780011903B /* Products */,
+				0E2420E623D884820011903B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0E2420AE23D828780011903B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E2420AD23D828780011903B /* Daily Checklist and Daily Routine App.app */,
+				0E2420C523D8287E0011903B /* Daily Checklist and Daily Routine AppTests.xctest */,
+				0E2420D023D8287E0011903B /* Daily Checklist and Daily Routine AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E2420AF23D828780011903B /* Daily Checklist and Daily Routine App */ = {
+			isa = PBXGroup;
+			children = (
+				0E5AB62F23DACBAB0043EB0B /* adapter */,
+				0E2420E223D8841C0011903B /* helper */,
+				0E2420B023D828780011903B /* AppDelegate.h */,
+				0E2420B123D828780011903B /* AppDelegate.m */,
+				0E2420B323D828780011903B /* Task.h */,
+				0E2420B423D828780011903B /* Task.m */,
+				0EE86C8F23D98DA50040F6A7 /* Home.h */,
+				0EE86C9023D98DA50040F6A7 /* Home.m */,
+				0E5C715923DC6F7B00115478 /* TaskHistory.h */,
+				0E5C715A23DC6F7B00115478 /* TaskHistory.m */,
+				0E2420B623D828780011903B /* Main.storyboard */,
+				0E2420B923D8287D0011903B /* Assets.xcassets */,
+				0E2420BB23D8287D0011903B /* LaunchScreen.storyboard */,
+				0E2420BE23D8287D0011903B /* Info.plist */,
+				0E2420BF23D8287D0011903B /* main.m */,
+			);
+			path = "Daily Checklist and Daily Routine App";
+			sourceTree = "<group>";
+		};
+		0E2420C823D8287E0011903B /* Daily Checklist and Daily Routine AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				0E2420C923D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppTests.m */,
+				0E2420CB23D8287E0011903B /* Info.plist */,
+			);
+			path = "Daily Checklist and Daily Routine AppTests";
+			sourceTree = "<group>";
+		};
+		0E2420D323D8287E0011903B /* Daily Checklist and Daily Routine AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0E2420D423D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppUITests.m */,
+				0E2420D623D8287E0011903B /* Info.plist */,
+			);
+			path = "Daily Checklist and Daily Routine AppUITests";
+			sourceTree = "<group>";
+		};
+		0E2420E223D8841C0011903B /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				0E2420E323D884320011903B /* DB.h */,
+				0E2420E423D884320011903B /* DB.m */,
+				0E5AB63323DACD5B0043EB0B /* TaskModel.h */,
+				0E5AB63423DACD5B0043EB0B /* TaskModel.m */,
+				0E5C715623DC309200115478 /* SavedData.h */,
+				0E5C715723DC309200115478 /* SavedData.m */,
+			);
+			path = helper;
+			sourceTree = "<group>";
+		};
+		0E2420E623D884820011903B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E2420E723D884820011903B /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0E5AB62F23DACBAB0043EB0B /* adapter */ = {
+			isa = PBXGroup;
+			children = (
+				0E5AB63023DACBCC0043EB0B /* ListAdapter.h */,
+				0E5AB63123DACBCC0043EB0B /* ListAdapter.m */,
+			);
+			path = adapter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E2420AC23D828780011903B /* Daily Checklist and Daily Routine App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2420D923D8287E0011903B /* Build configuration list for PBXNativeTarget "Daily Checklist and Daily Routine App" */;
+			buildPhases = (
+				0E2420A923D828780011903B /* Sources */,
+				0E2420AA23D828780011903B /* Frameworks */,
+				0E2420AB23D828780011903B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Daily Checklist and Daily Routine App";
+			productName = "Daily Checklist and Daily Routine App";
+			productReference = 0E2420AD23D828780011903B /* Daily Checklist and Daily Routine App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0E2420C423D8287E0011903B /* Daily Checklist and Daily Routine AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2420DC23D8287E0011903B /* Build configuration list for PBXNativeTarget "Daily Checklist and Daily Routine AppTests" */;
+			buildPhases = (
+				0E2420C123D8287E0011903B /* Sources */,
+				0E2420C223D8287E0011903B /* Frameworks */,
+				0E2420C323D8287E0011903B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E2420C723D8287E0011903B /* PBXTargetDependency */,
+			);
+			name = "Daily Checklist and Daily Routine AppTests";
+			productName = "Daily Checklist and Daily Routine AppTests";
+			productReference = 0E2420C523D8287E0011903B /* Daily Checklist and Daily Routine AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0E2420CF23D8287E0011903B /* Daily Checklist and Daily Routine AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2420DF23D8287E0011903B /* Build configuration list for PBXNativeTarget "Daily Checklist and Daily Routine AppUITests" */;
+			buildPhases = (
+				0E2420CC23D8287E0011903B /* Sources */,
+				0E2420CD23D8287E0011903B /* Frameworks */,
+				0E2420CE23D8287E0011903B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0E2420D223D8287E0011903B /* PBXTargetDependency */,
+			);
+			name = "Daily Checklist and Daily Routine AppUITests";
+			productName = "Daily Checklist and Daily Routine AppUITests";
+			productReference = 0E2420D023D8287E0011903B /* Daily Checklist and Daily Routine AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E2420A523D828770011903B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Nevon;
+				TargetAttributes = {
+					0E2420AC23D828780011903B = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0E2420C423D8287E0011903B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0E2420AC23D828780011903B;
+					};
+					0E2420CF23D8287E0011903B = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0E2420AC23D828780011903B;
+					};
+				};
+			};
+			buildConfigurationList = 0E2420A823D828770011903B /* Build configuration list for PBXProject "Daily Checklist and Daily Routine App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E2420A423D828770011903B;
+			productRefGroup = 0E2420AE23D828780011903B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E2420AC23D828780011903B /* Daily Checklist and Daily Routine App */,
+				0E2420C423D8287E0011903B /* Daily Checklist and Daily Routine AppTests */,
+				0E2420CF23D8287E0011903B /* Daily Checklist and Daily Routine AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E2420AB23D828780011903B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2420BD23D8287D0011903B /* LaunchScreen.storyboard in Resources */,
+				0E2420BA23D8287D0011903B /* Assets.xcassets in Resources */,
+				0E2420B823D828780011903B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2420C323D8287E0011903B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2420CE23D8287E0011903B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E2420A923D828780011903B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EE86C9123D98DA50040F6A7 /* Home.m in Sources */,
+				0E2420B523D828780011903B /* Task.m in Sources */,
+				0E2420E523D884320011903B /* DB.m in Sources */,
+				0E5C715B23DC6F7B00115478 /* TaskHistory.m in Sources */,
+				0E5C715823DC309200115478 /* SavedData.m in Sources */,
+				0E5AB63523DACD5B0043EB0B /* TaskModel.m in Sources */,
+				0E2420C023D8287D0011903B /* main.m in Sources */,
+				0E2420B223D828780011903B /* AppDelegate.m in Sources */,
+				0E5AB63223DACBCC0043EB0B /* ListAdapter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2420C123D8287E0011903B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2420CA23D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E2420CC23D8287E0011903B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E2420D523D8287E0011903B /* Daily_Checklist_and_Daily_Routine_AppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0E2420C723D8287E0011903B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E2420AC23D828780011903B /* Daily Checklist and Daily Routine App */;
+			targetProxy = 0E2420C623D8287E0011903B /* PBXContainerItemProxy */;
+		};
+		0E2420D223D8287E0011903B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0E2420AC23D828780011903B /* Daily Checklist and Daily Routine App */;
+			targetProxy = 0E2420D123D8287E0011903B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0E2420B623D828780011903B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2420B723D828780011903B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0E2420BB23D8287D0011903B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0E2420BC23D8287D0011903B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0E2420D723D8287E0011903B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0E2420D823D8287E0011903B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E2420DA23D8287E0011903B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V94Q89EU6R;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "Daily Checklist and Daily Routine App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Daily-Checklist-and-Daily-Routine-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0E2420DB23D8287E0011903B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V94Q89EU6R;
+				GCC_NO_COMMON_BLOCKS = NO;
+				INFOPLIST_FILE = "Daily Checklist and Daily Routine App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Daily-Checklist-and-Daily-Routine-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		0E2420DD23D8287E0011903B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily Checklist and Daily Routine AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Daily-Checklist-and-Daily-Routine-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Checklist and Daily Routine App.app/Daily Checklist and Daily Routine App";
+			};
+			name = Debug;
+		};
+		0E2420DE23D8287E0011903B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily Checklist and Daily Routine AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Daily-Checklist-and-Daily-Routine-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Daily Checklist and Daily Routine App.app/Daily Checklist and Daily Routine App";
+			};
+			name = Release;
+		};
+		0E2420E023D8287E0011903B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily Checklist and Daily Routine AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Daily-Checklist-and-Daily-Routine-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Daily Checklist and Daily Routine App";
+			};
+			name = Debug;
+		};
+		0E2420E123D8287E0011903B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Daily Checklist and Daily Routine AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.Daily-Checklist-and-Daily-Routine-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Daily Checklist and Daily Routine App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E2420A823D828770011903B /* Build configuration list for PBXProject "Daily Checklist and Daily Routine App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2420D723D8287E0011903B /* Debug */,
+				0E2420D823D8287E0011903B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2420D923D8287E0011903B /* Build configuration list for PBXNativeTarget "Daily Checklist and Daily Routine App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2420DA23D8287E0011903B /* Debug */,
+				0E2420DB23D8287E0011903B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2420DC23D8287E0011903B /* Build configuration list for PBXNativeTarget "Daily Checklist and Daily Routine AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2420DD23D8287E0011903B /* Debug */,
+				0E2420DE23D8287E0011903B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E2420DF23D8287E0011903B /* Build configuration list for PBXNativeTarget "Daily Checklist and Daily Routine AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E2420E023D8287E0011903B /* Debug */,
+				0E2420E123D8287E0011903B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0E2420A523D828770011903B /* Project object */;
+}
